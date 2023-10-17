@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>My Website</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="icon" href="./favicon.ico" type="image/x-icon">
+  </head>
+
+  <style>
+    html, body{
+        margin:0;
+        padding:0;
+    }
+    .StreamingContainer{
+        background-color:rgb(0, 0, 0);
+        height:99vh;
+    }
+
+    .IframContainer{
+        padding:0;
+        margin:0;
+    }
+    </style>
+
+  <body>
+    
+    <main>
+        <div class="StreamingContainer">
+         <iframe  class="IframContainer" style="visibility: visible;"  
+             id="iframe_1" 
+             src="https://connector.eagle3dstreaming.com/v5/max-electricnoodles/EN_PixelStreaming_V2/BaseConfig" 
+             width="100%" height="100%" frameborder="0" cellspacing="0"
+             allowfullscreen style="border: none;"></iframe>
+        </div>
+    </main>
+	<script src="index.js"></script>
+  </body>
+</html>
